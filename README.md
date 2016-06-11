@@ -22,7 +22,7 @@ While many other addons listed here may have the consequence of blocking ads, th
 * [Smart HTTPS](https://addons.mozilla.org/en-US/firefox/addon/smart-https/) - Similar to HTTPS Everywhere, but works with any website that has *properly implemented* HTTPS.
 * [Perspectives](https://addons.mozilla.org/en-US/firefox/addon/perspectives/) - On load of a HTTPS page, perspectives contacts your specified 'notary' servers and asks for its history of recorded certificate hashes. If you currently have a different hash than your notaries are showing, you may be experiencing a man-in-the-middle attack. Perspectives tries to be an alternative to the certificate authority system.
 
-## Content & Request Controlling
+## Controlling Page Content & External Requests
 
 * [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/) - Disables JavaScript & Flash globally, but allows you to whitelist websites/domains either permanently or temporarily.
 * [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) - Controls what types of content a website can display or request, and from what sources.
