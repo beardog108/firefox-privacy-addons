@@ -22,7 +22,7 @@ While many other addons listed here may have the consequence of blocking ads, th
 * [HTTPS Everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/) - The name is kind of misleading, it doesn't actually make 'https' happen automatically *everywhere*, but it does force more popular websites that offer HTTPS to use it.
 * [Certificate Patrol](https://addons.mozilla.org/en-US/firefox/addon/certificate-patrol/) - Records website https [certificate authorities](https://en.wikipedia.org/wiki/Certificate_authority) and certificate hashes, notifying you about suspicious changes.
 * [Smart HTTPS](https://addons.mozilla.org/en-US/firefox/addon/smart-https/) - Similar to HTTPS Everywhere, but works with any website that has *properly implemented* HTTPS.
-* [Perspectives](https://addons.mozilla.org/en-US/firefox/addon/perspectives/) - On load of a HTTPS page, perspectives contacts your specified 'notary' servers and asks for its history of recorded certificate hashes. If you currently have a different hash than your notaries are showing, you may be experiencing a man-in-the-middle attack. Perspectives tries to be an alternative to the certificate authority system.
+* [Perspectives](https://addons.mozilla.org/en-US/firefox/addon/perspectives/) - On load of a HTTPS page, perspectives contacts your specified 'notary' servers and requests their history of recorded certificate hashes. If you currently have a different hash than your servers are showing, you may be experiencing a man-in-the-middle attack. Perspectives tries to be an alternative to the certificate authority system.
 
 ## Controlling Page Content & External Requests
 
