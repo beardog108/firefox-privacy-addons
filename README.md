@@ -2,6 +2,8 @@
 
 This is a curated list of Firefox security/privacy addons & tweaks.
 
+## NOTICE: Stuff has changed in the past year a good bit. I need to update this to reflect current addons & Firefox version.
+
 ## Adblockers
 
 While many other addons listed here may have the consequence of blocking ads, these addon's primary purpose is to defeat online advertising.
