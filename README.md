@@ -14,11 +14,10 @@ While many other addons listed here may have the consequence of blocking ads, th
 ## Tracking & Fingerprinting Protection
 
 * [Privacy Badger](https://addons.mozilla.org/en-us/firefox/addon/privacy-badger-firefox/) - As you browse, Privacy Badger identifies 3rd party domains that show up around the web, and tries to intelligently disable cookies or entirely block the request. You can also use its simple interface to block domains yourself, although it works pretty well 'out of the box'.
-* [Ghostery](https://addons.mozilla.org/en-us/firefox/addon/ghostery/) - Another tracker blocker, allows you to block trackers by category.
 * [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/) - Replaces many [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) requests with locally loaded content, which speeds up your browsing and prevents some CDN tracking. Decentraleyes is missing many CDNs, however.
-* [Random Agent Spoofer](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/) - Randomizes [User Agent Header](https://en.wikipedia.org/wiki/User_agent) and many other identifying features on a user-defined timer. Also has toggle switches to various about:config options related to [browser fingerprinting](https://wiki.mozilla.org/Fingerprinting). Users should be aware that there are other ways to discover browser versions.
+* [Random Agent Spoofer](https://addons.mozilla.org/en-US/firefox/addon/random-agent-spoofer/) - Randomizes [User Agent Header](https://en.wikipedia.org/wiki/User_agent) and many other identifying features on a user-defined timer. Also has toggle switches to various about:config options related to [browser fingerprinting](https://wiki.mozilla.org/Fingerprinting). Users should be aware that there are other ways to discover browser versions. **Will stop working in Firefox 57+, but other addons + about:config settings can replace it**
 * [PureURL](https://addons.mozilla.org/en-US/firefox/addon/pure-url/) - Removes tracking fields from URLs before they are loaded by the browser.
-* [No Resource:// URI Leak](https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/) - Prevents websites from accessing resource://, which normally can be used to identify browser versions.
+* [No Resource:// URI Leak](https://addons.mozilla.org/en-US/firefox/addon/no-resource-uri-leak/) - Prevents websites from accessing resource://, which normally can be used to identify browser versions. Useless in Firefox 57+
 
 ## HTTPS Improvements
 
@@ -32,7 +31,7 @@ While many other addons listed here may have the consequence of blocking ads, th
 * [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/) - Disables JavaScript & Flash globally, but allows you to whitelist websites/domains either permanently or temporarily.
 * [uMatrix](https://addons.mozilla.org/en-US/firefox/addon/umatrix/) - Controls what types of content a website can display or request, and from what sources.
 * [CookieController](https://addons.mozilla.org/en-US/firefox/addon/cookie-controller/) - Adds buttons for viewing and removing cookies for specific websites.
-* [Self-Destructing Cookies](https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/) - Removes cookies from websites upon tab closure, browser closure or on a set timer. Can be set on a per-domain basis.
+* [Cookie Autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/) - Removes cookies from websites upon tab closure, browser closure or on a set timer. Can be set on a per-domain basis.
 
 -----
 
